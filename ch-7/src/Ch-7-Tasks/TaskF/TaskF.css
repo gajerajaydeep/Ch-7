@@ -1,0 +1,23 @@
+.header-top{
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    overflow: visible;
+    z-index: 1;
+}
+.suspence-main{
+    position: relative; 
+    height: 100vh; 
+}
+.suspense-middle{
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+.footer-bottom{
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+}
