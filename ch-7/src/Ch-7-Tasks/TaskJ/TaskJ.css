@@ -1,0 +1,28 @@
+.advance-form{
+    border: 1px solid black;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+label{
+    font-size: 20px;
+    margin: 2px;
+}
+input{
+    width: 500px;
+    margin: 2px;
+}
+textarea{
+    width: 500px;
+}
+input[type="radio"]{
+    width: 50px;
+    cursor: pointer;
+}
+input[type="date"]{
+    width: 500px;
+}
+input[type="checkbox"]{
+    width: 50px;
+}
